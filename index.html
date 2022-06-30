@@ -1,12 +1,34 @@
-Hello World
-<h1>Hello World! My name is Yashi.</h1>
-<form>
-<label for="username">Username</label>
-<input type="text" name="username" id="username"></input>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    <h1>Hello World! My name is Yashi.</h1>
 
-<label for="user-password">Password: </label>
-<input type="password" id="user-password" name="user-password" min="8" max="16" required></input>
+  <form>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" minlength="5" maxlength="15" required>
+    <br>
+    <label for="user-password">Password: </label>
+    <input type="password" id="user-password" name="user-password" minlength="8" maxlength="16" required>
+    <br>
+    <input type="submit">
+  </form>
+</div>
 
 
+<div class="grid-container">
+    <p class="grid-item a">A</p>
+    <p class="grid-item b">B</p>
+    <p class="grid-item c">C</p>
+    <p class="grid-item d">D</p>
+</div>
 
-</form>
+</body>
+</html>
